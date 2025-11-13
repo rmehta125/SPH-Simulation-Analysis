@@ -15,7 +15,7 @@ outputpath =       #Output file path for the plots
 r0 = 1e6           #Unit of length for the spatial axes (default is 1e6 m)
 axesscale = 9      #Length of each axis in units of r0 (default is 9 r0)
 
-#USER INPUTS_________________________________________________________________
+#____________________________________________________________________________
 
 secondstime=time*100
 meltedparticles=[]
@@ -213,6 +213,7 @@ plt.close(fig)
 print(f"The total number of mantle particles is: {mantcounter}")
 print(f"The total number of melted mantle particles (Rubie Model) is: {rubiecounter} ")
 print(f"The total number of melted mantle particles (Entropy Model) is: {entcounter}\n")
+
 
 
 

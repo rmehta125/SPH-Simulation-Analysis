@@ -6,14 +6,14 @@ import gc
 
 #USER INPUTS_________________________________________________________________
 
-gamma =
-angle =
-time =
-ncores =
-path =
-outputpath =
-r0=1e6
-axesscale=9
+gamma =            #Impactor to target mass ratio (needed for naming plots and accessing files)
+angle =            #Impact angle (needed for naming (needed for naming plots)
+time =             #Time you are analyzing the melting at
+ncores =           #Number of cores used in the simulation
+path =             #Path to data files
+outputpath =       #Output file path for the plots
+r0 = 1e6           #Unit of length for the spatial axes (default is 1e6 m)
+axesscale = 9      #Length of each axis in units of r0 (default is 9 r0)
 
 #USER INPUTS_________________________________________________________________
 
@@ -213,6 +213,7 @@ plt.close(fig)
 print(f"The total number of mantle particles is: {mantcounter}")
 print(f"The total number of melted mantle particles (Rubie Model) is: {rubiecounter} ")
 print(f"The total number of melted mantle particles (Entropy Model) is: {entcounter}\n")
+
 
 
 

@@ -141,7 +141,7 @@ for j in range(outputnumber1,outputnumber2+1):
     ax.set_aspect('equal')
 
     plt.savefig(f"{outputpath}/snap_{j:05d}.png", dpi=300)
-    print(f"Outputted snap_{j:05d}.png")
+    print(f"\nOutputted snap_{j:05d}.png\n")
 
     print(f"The number of core particles in the mantle is: {len(specialx)}")
     print(f"The total number of impactor core particles is: {len(specialx)+len(ximpcore)}")
@@ -149,6 +149,7 @@ for j in range(outputnumber1,outputnumber2+1):
     f.write("{} {}\n".format(j,len(specialx)/(len(specialx)+len(ximpcore))))
     plt.close()
 f.close()
+
 
 
 

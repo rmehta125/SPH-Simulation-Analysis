@@ -4,9 +4,9 @@ from collections import namedtuple
 
 #USER INPUTS_________________________________________________________________
 
-path=        #Path to data files
-ncores=      #Number of cores used in the simulation
-time=        #Time you are analyzing the rotation period at
+path =        #Path to data files
+ncores =      #Number of cores used in the simulation
+time =        #Time you are analyzing the rotation period at
 
 #____________________________________________________________________________
 
@@ -91,4 +91,5 @@ for i in range(ncores):
 omegaz=np.linalg.norm(Lnet)/I
 periodz=(2*np.pi)/omegaz
 print(f"\nThe rotation period is: {periodz/3600} hours\n")
+
 

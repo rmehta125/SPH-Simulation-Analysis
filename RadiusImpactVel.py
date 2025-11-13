@@ -4,10 +4,10 @@ from collections import namedtuple
 
 #USER INPUTS_________________________________________________________________
 
-type = "Body"       #Type of file, type "Collision" for collision files or "Body" for body files
-path=r"c:\Users\nakaj\OneDrive\Desktop\2025Work\MeltScalingCollisions\Impactors\0.01\\"     #Path to data files
-ncores=25       #Number of cores used in the simulation
-time=10     #Time you are analyzing the radii/escape velocity at
+type =       #Type of file, type "Collision" for collision files or "Body" for body files
+path =       #Path to data files
+ncores =     #Number of cores used in the simulation
+time =       #Time you are analyzing the radii/escape velocity at
 
 #____________________________________________________________________________
 
@@ -127,6 +127,7 @@ if type == "Body":
         
 
             
+
 
 
 

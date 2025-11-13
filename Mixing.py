@@ -2,22 +2,23 @@ import matplotlib.pyplot as plt
 from matplotlib.gridspec import GridSpec
 import numpy as np
 
-#USER INPUTS ---------------------------------------------
+#USER INPUTS_________________________________________________________________
 
-path = r"/home/theia/roshanm125/FinalMeltScalingCollisions/Collisions/0.03/90Deg/"
-outputpath =r"/home/theia/roshanm125/FinalMeltScalingCollisions/Collisions/0.03/90Deg/"
-ncores = 100
-outputnumber1 = 370
-outputnumber2 = 370
-axesdim = 15
-axesscale = 1e6
-particlesize = 1
+scale = 1e6                    #Unit of length for the plots (the default is 1e6 m)
+corecutoff =                   #Distance from the target's core's center of mass post-collision that you consider to be the core mantle boundary (in units of your scale)
+mantlecutoff =                 #Distance from the target's core's center of mass post-collision that you consider to be the radius of the target (in units of your scale)
+path =                         #Path to data files
+outputpath =                   #Output file path for the plots and mixing document
+ncores =                       #Number of cores used in the simulation
+outputnumber1 =                #Initial timestep for analysis
+outputnumber2 =                #Final timestep for analysis
+axesdim = 15                   #Length of your axes in units of your scale           
 
+#____________________________________________________________________________
+
+particlesize = 1 
 tarcorecolor = "gray"
 impcorecolor = "crimson"
-
-
-#---------------------------------------------------------
 
 f=open(f"{outputpath}InEarthMant.txt",'w')
 
@@ -58,9 +59,9 @@ for j in range(outputnumber1,outputnumber2+1):
             for line in file:
                 elements=line.split()
                 tag=int(elements[1])
-                xx = float(elements[3])/axesscale
-                yy = float(elements[4])/axesscale
-                zz = float(elements[5])/axesscale
+                xx = float(elements[3])/scale
+                yy = float(elements[4])/scale
+                zz = float(elements[5])/scale
 
                 if tag == 1:
 
@@ -87,9 +88,9 @@ for j in range(outputnumber1,outputnumber2+1):
             for line in file:
                 elements=line.split()
                 tag=int(elements[1])
-                xx = (float(elements[3])/axesscale)-xcm
-                yy = (float(elements[4])/axesscale)-ycm
-                zz = (float(elements[5])/axesscale)-zcm
+                xx = (float(elements[3])/scale)-xcm
+                yy = (float(elements[4])/scale)-ycm
+                zz = (float(elements[5])/scale)-zcm
 
                 if tag == 1:
 
@@ -123,8 +124,8 @@ for j in range(outputnumber1,outputnumber2+1):
     ax.scatter(xtarcore,ytarcore,c=tarcorecolor,marker='.',s=particlesize)
     ax.scatter(ximpcore,yimpcore,c=impcorecolor,marker='.',s=particlesize)
 
-    ax.set_xlabel(f"x ({axesscale:.0e} m)")
-    ax.set_ylabel(f"y ({axesscale:.0e} m)")
+    ax.set_xlabel(f"x ({scale:.0e} m)")
+    ax.set_ylabel(f"y ({scale:.0e} m)")
 
     ticks=np.linspace(-axesdim/2,axesdim/2,5)
     ax.set_xticks(ticks)
@@ -148,6 +149,7 @@ for j in range(outputnumber1,outputnumber2+1):
     f.write("{} {}\n".format(j,len(specialx)/(len(specialx)+len(ximpcore))))
     plt.close()
 f.close()
+
 
 
 

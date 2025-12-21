@@ -2,7 +2,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 from collections import namedtuple
 
-
 #USER INPUTS_________________________________________________________________
 
 outputnumber=1200
@@ -348,3 +347,4 @@ def main():
 
 
 main()
+

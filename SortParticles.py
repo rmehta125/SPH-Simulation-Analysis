@@ -152,7 +152,7 @@ def storing_data(cms,radius):   #Reads particle data, centers it, and stores it
 
     #Compute the mass within the initial radius:
 
-    print("\nFinding Initial Planetary Mass...\n")
+    print("\nFinding initial planetary mass...\n")
 
     xcm,ycm,zcm=cms[0],cms[1],cms[2]
     mass=0
@@ -179,7 +179,7 @@ def storing_data(cms,radius):   #Reads particle data, centers it, and stores it
 
     #Store data
 
-    print("Reading and Storing Data...\n")
+    print("Reading and storing data...\n")
 
     particle = namedtuple('particle', ['id','tag','m','x','y','z','r','vx','vy','vz',
                                        'v','dens','int_e','press','pot_e','ent','temp'])
@@ -348,3 +348,4 @@ def main():
 
 
 main()
+

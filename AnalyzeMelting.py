@@ -17,7 +17,7 @@ cutoff='Yes'
 
 r0=1e6
 
-def melting(cutoff):  #Determines which particles are melted
+def melting(cutoff):    #Determines which particles are melted
 
     print("\nAnalyzing melting...\n")
 
@@ -221,3 +221,4 @@ def main(cutoff):
 
 
 main(cutoff)
+

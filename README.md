@@ -6,7 +6,7 @@ This repository allows users to analyze planetary collision simulations generate
 
 A full data set generated from a collision can be storage intensive.  For convenience, one sample timestep from a low resolution canonical impact scenario has been uploaded at the attached Dropbox link for users to try analyzing (https://www.dropbox.com/scl/fo/omhu89fb82087rrr11p68/ABkQkBSbzLosi3UvUJS1GYU?rlkey=178ipj8oxtva3upz7obvhy8qn&st=1ub217ll&dl=0).
 
-For a full instruction manual of using the code and data uploaded here, please see the attached link: [INSERT LINK].
+For a full instruction manual of using the code, please see the attached link: [INSERT LINK].
 
 ## Gallery
 

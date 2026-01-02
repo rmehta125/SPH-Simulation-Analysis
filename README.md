@@ -21,8 +21,8 @@ https://github.com/user-attachments/assets/5d47f62f-f200-4169-93ec-5466018443ba
            src="https://github.com/user-attachments/assets/ccfc51d3-d789-40cd-b457-5aedd2f0b4cc" />
     </td>
     <td>
-      <img width="900" alt="TemperatureCS" 
-           src="https://github.com/user-attachments/assets/76a57886-d702-4be4-948a-3cd17834a757" />
+      <img width="900" alt="Energy3D" 
+           src="https://github.com/user-attachments/assets/0f18d4ec-2293-4aee-883c-f4c6b5bf1e3e" /> 
     </td>
   </tr>
     <tr>

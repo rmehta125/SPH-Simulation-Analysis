@@ -18,40 +18,22 @@ https://github.com/user-attachments/assets/5d47f62f-f200-4169-93ec-5466018443ba
   <!-- Row 1: THREE images -->
   <tr>
     <td>
-      <img width="600" alt="Melting_00740" src="https://github.com/user-attachments/assets/414d60d3-08c6-4c64-aa53-a1d52962fae0" />
+      <img width="900" alt="Melting_00740" src="https://github.com/user-attachments/assets/414d60d3-08c6-4c64-aa53-a1d52962fae0" />
     </td>
     <td>
-      <img width="600" alt="Mixing3D_00740" src="https://github.com/user-attachments/assets/808dec53-8c6c-4029-aabd-095d328db2cf" />
-    </td>
-    <td>
-      <img width="500" alt="MixingProj_00740" src="https://github.com/user-attachments/assets/dfa5678c-a1ea-441f-8931-a66714a667ff" />
+      <img width="900" alt="Mixing3D_00740" src="https://github.com/user-attachments/assets/808dec53-8c6c-4029-aabd-095d328db2cf" />
     </td>
   </tr>
-</table>
-
-<table align="center>
-
-  <!-- Row 2: two wide images -->
   <tr>
-    <td colspan="2">
-      <img width="900" alt="TemperatureCS" 
-           src="https://github.com/user-attachments/assets/76a57886-d702-4be4-948a-3cd17834a757" />
+    <td>
+      <img width="900" alt="MixingProj_00740" src="https://github.com/user-attachments/assets/dfa5678c-a1ea-441f-8931-a66714a667ff" />
     </td>
     <td>
-      <img width="900" alt="DensityCS_Alt"
-           src="https://github.com/user-attachments/assets/ccfc51d3-d789-40cd-b457-5aedd2f0b4cc" />
+      <img width="900" height="1808" alt="Energy3D" src="https://github.com/user-attachments/assets/8dbcf20f-3ca6-429d-a45a-32b00502a294" />    
     </td>
   </tr>
-
-  <!-- Row 3: full-width -->
-  <tr>
-    <td colspan="3" align="center">
-      <img width="1200" alt="Energy3D_Large" 
-           src="https://github.com/user-attachments/assets/0f18d4ec-2293-4aee-883c-f4c6b5bf1e3e" />
-    </td>
-  </tr>
+  
 </table>
-
 
 </div>
 

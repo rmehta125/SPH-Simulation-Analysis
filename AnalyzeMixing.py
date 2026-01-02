@@ -5,14 +5,14 @@ from scipy.spatial import cKDTree
 
 #USER INPUTS_________________________________________________________________
 
-path=r"C:\Users\nakaj\OneDrive\Desktop\2025Work\MeltScalingCollisions\FinalCollisions\0.01\60Deg\\"
-outputpath=path
-outputnumber=200
-gamma=0.01
-angle=60
-axesdim = 22
-azimuth=120
-elevation=10
+path = 
+outputpath =
+outputnumber = 
+gamma = 
+angle = 
+axesdim = 20
+azimuth = 120
+elevation = 10
 
 #____________________________________________________________________________
 
@@ -244,6 +244,7 @@ def main():
     radius,particles,timevalue=read_data()
     cutoff,ironparticles=find_cutoff(radius,particles)
     analyze_mixing(cutoff,ironparticles,timevalue)
+
 
 
 

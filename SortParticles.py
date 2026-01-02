@@ -4,13 +4,13 @@ from collections import namedtuple
 
 #USER INPUTS_________________________________________________________________
 
-path=r"C:\Users\nakaj\OneDrive\Desktop\2025Work\MeltScalingCollisions\FinalCollisions\0.01\60Deg\\"
-outputpath=path
-outputnumber=740
-ncores=100
-xlim=20
-percentile=99
-iterations=3
+path = 
+outputpath =
+outputnumber =
+ncores =
+xlim = 20
+percentile = 99
+iterations = 5
 
 #____________________________________________________________________________
 
@@ -371,3 +371,4 @@ def main():
 
 
 main()
+

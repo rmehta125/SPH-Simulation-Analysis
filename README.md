@@ -14,8 +14,10 @@ For a full instruction manual of using the code, please see the attached link: h
 
 https://github.com/user-attachments/assets/5d47f62f-f200-4169-93ec-5466018443ba
 
-<img width="900" alt="DensityCS" src="https://github.com/user-attachments/assets/ccfc51d3-d789-40cd-b457-5aedd2f0b4cc" />
-<img width="900" alt="TemperatureCS" src="https://github.com/user-attachments/assets/ddf86ae6-ff1b-4f76-a37b-20941ad55cb6" />
+<img width="900" alt="DensityCS" 
+  src="https://github.com/user-attachments/assets/ccfc51d3-d789-40cd-b457-5aedd2f0b4cc" />
+<img width="900" alt="TemperatureCS" 
+  src="https://github.com/user-attachments/assets/ddf86ae6-ff1b-4f76-a37b-20941ad55cb6" />
 
 </div>
 

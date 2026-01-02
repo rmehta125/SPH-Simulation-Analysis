@@ -4,30 +4,30 @@ import numpy as np
 
 #USER INPUTS_________________________________________________________________
 
-path = r"C:\Users\nakaj\OneDrive\Desktop\2025Work\CanonicalImpact\\"
-outputpath = r"C:\Users\nakaj\OneDrive\Desktop\2025Work\CanonicalImpact\Visuals\\"
-ncores = 300
-outputnumber1 = 19
-outputnumber2 = 19
+path = 
+outputpath = 
+ncores = 
+outputnumber1 = 
+outputnumber2 = 
 
-centering=True
+centering = True
 axesscale = 1e6
 axesdim = 20
 axes = False
-azimuth = 165
-elevation = 0
+azimuth = -60
+elevation = 30
 background = 'Black'
-particlesize = 2.5
+particlesize = 1.7
 
-parameter = 'Pressure'
-minimum = 0
-maximum = 10e9
-colormap = 'PuRd_r'
+parameter = 
+minimum = 
+maximum = 
+colormap = 
 
-tarmantlecolor = 'cmap'
-tarcorecolor = 'cmap'
-impmantlecolor = 'gray'
-impcorecolor = 'gray'
+tarmantlecolor = 
+tarcorecolor = 
+impmantlecolor = 
+impcorecolor = 
 
 #____________________________________________________________________________
 
@@ -289,6 +289,7 @@ def main():
         plot(lists,normfactor,units,timevalue)
 
     print()
+
 
 
 

@@ -27,6 +27,9 @@ https://github.com/user-attachments/assets/5d47f62f-f200-4169-93ec-5466018443ba
       <img width="500" alt="MixingProj_00740" src="https://github.com/user-attachments/assets/dfa5678c-a1ea-441f-8931-a66714a667ff" />
     </td>
   </tr>
+</table>
+
+<table align="center>
 
   <!-- Row 2: two wide images -->
   <tr>

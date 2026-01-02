@@ -15,34 +15,39 @@ For a full instruction manual of using the code, please see the attached link: h
 https://github.com/user-attachments/assets/5d47f62f-f200-4169-93ec-5466018443ba
 
 <table align="center">
+  <!-- Row 1: THREE images -->
   <tr>
     <td>
-      <img width="900" alt="DensityCS"
+      <img width="600" alt="DensityCS"
            src="https://github.com/user-attachments/assets/ccfc51d3-d789-40cd-b457-5aedd2f0b4cc" />
     </td>
     <td>
-      <img width="900" alt="Energy3D" 
+      <img width="600" alt="Energy3D" 
            src="https://github.com/user-attachments/assets/0f18d4ec-2293-4aee-883c-f4c6b5bf1e3e" /> 
     </td>
-  </tr>
-  <tr>
     <td>
-      <img width="550" alt="Melting_00740" 
-           src="https://github.com/user-attachments/assets/ffb0ccbe-6a4c-4db8-804d-964b34fbeedd" />
-      <img width="550" alt="Mixing3D_00740" 
-           src="https://github.com/user-attachments/assets/4475110a-4aaf-48a3-8358-86bf43b4a35e" />
-      <img width="550" alt="MixingProj_00740" 
-           src="https://github.com/user-attachments/assets/5c5573d5-f319-4957-b0a7-6486bd0c6c32" />
+      <img width="600" alt="Pressure3D" 
+           src="https://github.com/user-attachments/assets/71b772c6-32ea-4dd0-8139-64466dc63a64" />
     </td>
   </tr>
+
+  <!-- Row 2: two wide images -->
   <tr>
-    <td>
-      <img width="900" alt="Pressure3D" 
-        src="https://github.com/user-attachments/assets/71b772c6-32ea-4dd0-8139-64466dc63a64" />
-    </td>
-    <td>
+    <td colspan="2">
       <img width="900" alt="TemperatureCS" 
            src="https://github.com/user-attachments/assets/76a57886-d702-4be4-948a-3cd17834a757" />
+    </td>
+    <td>
+      <img width="900" alt="DensityCS_Alt"
+           src="https://github.com/user-attachments/assets/ccfc51d3-d789-40cd-b457-5aedd2f0b4cc" />
+    </td>
+  </tr>
+
+  <!-- Row 3: full-width -->
+  <tr>
+    <td colspan="3" align="center">
+      <img width="1200" alt="Energy3D_Large" 
+           src="https://github.com/user-attachments/assets/0f18d4ec-2293-4aee-883c-f4c6b5bf1e3e" />
     </td>
   </tr>
 </table>

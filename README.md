@@ -33,7 +33,7 @@ https://github.com/user-attachments/assets/b24fa43b-61f6-4891-acf8-3572c9d9ff15
       <img width="900" alt="Melting_00537" src="https://github.com/user-attachments/assets/b1ad3e38-5f73-49e9-8ef5-4261f9741f85" />
     </td>
     <td>
-      <img width="900" height="1808" alt="Energy3D" src="https://github.com/user-attachments/assets/8dbcf20f-3ca6-429d-a45a-32b00502a294" />    
+        <img width="2112" height="1808" alt="3D_00740" src="https://github.com/user-attachments/assets/390002af-01fb-4194-9ade-c761fb33c7c9" />
     </td>
   </tr>
   <tr>
@@ -49,7 +49,7 @@ https://github.com/user-attachments/assets/b24fa43b-61f6-4891-acf8-3572c9d9ff15
       <img width="900" alt="MixingProj_00740" src="https://github.com/user-attachments/assets/dfa5678c-a1ea-441f-8931-a66714a667ff" />
     </td>
     <td>
-      <img width="900" alt="Pressure3D" src="https://github.com/user-attachments/assets/7d6e4cd5-6503-43ed-8ed7-cd7f47daa184" />
+      <img width="2112" height="1808" alt="Pressure3D" src="https://github.com/user-attachments/assets/f33e86ee-f5c6-4e2f-9960-73bf628d4340" />
     </td>
   </tr>
   

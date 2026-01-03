@@ -16,7 +16,7 @@ Shown below are several example plots and animations that have been generated us
 
 https://github.com/user-attachments/assets/677d4dc0-790d-4ea4-9379-2b7e1bffbcd4
 
-https://github.com/user-attachments/assets/35a39216-b505-4fa7-a606-d0ede24e80d9
+https://github.com/user-attachments/assets/649fc9d5-5022-4279-87bb-7e6afdd9cf90
 
 <table align="center">
   <!-- Row 1: THREE images -->
